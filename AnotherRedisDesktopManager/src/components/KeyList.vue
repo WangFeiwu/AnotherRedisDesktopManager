@@ -28,8 +28,8 @@ export default {
     return {
       keyList: [],
       keyListType: this.config.separator === '' ? 'KeyListNormal' : 'KeyListTree',
-      keysPageSize: this.keyListType === 'KeyListNormal' ? 200 : 400,
-      searchPageSize: 10000,
+      keysPageSize: 100000,
+      searchPageSize: 100000,
       scanStreams: [],
       scanningCount: 0,
       scanMoreDisabled: false,
